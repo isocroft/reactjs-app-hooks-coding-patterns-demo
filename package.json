@@ -1,0 +1,28 @@
+{
+  "name": "reactjs-app-hooks-coding-patterns-demo",
+  "version": "1.0.0",
+  "description": "A DEMO with React.js showing implementation of a collection of hooks that manage state and stateful updates for a application data using 3 coding patterns.\n  \n- command pattern\n\n- adapter pattern\n\n- strategy pattern\n\nExploring 2 state primitives:\n\n- state containers\n- signals",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@preact/signals-react": "1.2.2",
+    "clipboard-polyfill": "4.0.0",
+    "loader-utils": "3.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "react-to-print": "2.14.12"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "eslint": "8.37.0",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
